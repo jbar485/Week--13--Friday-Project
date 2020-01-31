@@ -43,6 +43,14 @@ colts = Team.create!({
   stadium: "Lucas Oil Stadium",
   founded: 1953
 })
+texans = Team.create!({
+  name: "Houston Texans",
+  logo: "https://library.kissclipart.com/20180902/ooe/kissclipart-houston-texans-clipart-houston-texans-nfl-d7ec288d0db63b61.jpg",
+  state: "Texas",
+  city: "Houston",
+  stadium: "NRG Stadium",
+  founded: 1999
+})
 
 #---------------Players------------------
 
@@ -569,33 +577,131 @@ packers.players.create!(
 #--------------Colts--------------------
 
 colts.players.create!(
-  name: "Devante Adams",
-  height: "6-1",
-  weight: 215,
+  name: "Jacoby Brissett",
+  height: "6-4",
+  weight: 238,
+  position: "QB",
+  number: 7
+)
+colts.players.create!(
+  name: "Jack Doyle",
+  height: "6-6",
+  weight: 262,
+  position: "TE",
+  number: 84
+)
+colts.players.create!(
+  name: "T.Y. Hilton",
+  height: "5-10",
+  weight: 183,
   position: "WR",
-  number: 17
+  number: 13
+)
+colts.players.create!(
+  name: "Marlon Mack",
+  height: "6-0",
+  weight: 210,
+  position: "RB",
+  number: 25
+)
+colts.players.create!(
+  name: "Chase Mclaughlin",
+  height: "6-1",
+  weight: 175,
+  position: "K",
+  number: 5
+)
+colts.players.create!(
+  name: "Malik Hooker",
+  height: "6-1",
+  weight: 214,
+  position: "S",
+  number: 29
+)
+colts.players.create!(
+  name: "Zach Pascal",
+  height: "6-2",
+  weight: 214,
+  position: "WR",
+  number: 14
+)
+colts.players.create!(
+  name: "Jordan Wilkins",
+  height: "6-1",
+  weight: 216,
+  position: "RB",
+  number: 20
 )
 
-colts.players.create!(
-  name: "Geronimo Allison",
-  height: "6-3",
+#-----------------Texans-------------------
+
+texans.players.create!(
+  name: "Jordan Akins",
+  height: "6-4",
+  weight: 243,
+  position: "TE",
+  number: 88
+)
+texans.players.create!(
+  name: "Ka'imi Fairbairn",
+  height: "6-0",
+  weight: 183,
+  position: "K",
+  number: 7
+)
+texans.players.create!(
+  name: "Darren Fells",
+  height: "6-7",
+  weight: 270,
+  position: "TE",
+  number: 87
+)
+texans.players.create!(
+  name: "Will Fuller V",
+  height: "6-0",
+  weight: 184,
+  position: "WR",
+  number: 15
+)
+texans.players.create!(
+  name: "DeAndre Hopkins",
+  height: "6-1",
+  weight: 212,
+  position: "WR",
+  number: 10
+)
+texans.players.create!(
+  name: "Carlos Hyde",
+  height: "6-0",
+  weight: 229,
+  position: "RB",
+  number: 23
+)
+texans.players.create!(
+  name: "Duke Johnson",
+  height: "5-9",
+  weight: 210,
+  position: "RB",
+  number: 25
+)
+texans.players.create!(
+  name: "Kenny Stills",
+  height: "6-1",
   weight: 202,
   position: "WR",
-  number: 81
+  number: 12
 )
-
-colts.players.create!(
-  name: "Mason Crosby",
-  height: "6-1",
-  weight: 207,
-  position: "K",
-  number: 2
+texans.players.create!(
+  name: "Deshaun Watson",
+  height: "6-2",
+  weight: 220,
+  position: "QB",
+  number: 4
 )
-
-colts.players.create!(
-  name: "Jimmy Graham",
-  height: "6-7",
-  weight: 265,
-  position: "TE",
-  number: 80
+texans.players.create!(
+  name: "J.J. Watt",
+  height: "6-5",
+  weight: 288,
+  position: "DE",
+  number: 99
 )
