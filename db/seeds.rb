@@ -51,6 +51,14 @@ texans = Team.create!({
   stadium: "NRG Stadium",
   founded: 1999
 })
+titans = Team.create!({
+  name: "Tennessee Titans",
+  logo: "https://library.kissclipart.com/20181002/soq/kissclipart-tennessee-titans-logo-clipart-tennessee-titans-nfl-df91c3c560559e88.jpg",
+  state: "Tennessee",
+  city: "Nashville",
+  stadium: "Nissan Stadium",
+  founded: 1959
+})
 
 #---------------Players------------------
 
@@ -704,4 +712,56 @@ texans.players.create!(
   weight: 288,
   position: "DE",
   number: 99
+)
+
+#-------------------Titans--------------------
+
+titans.players.create!(
+  name: "A.J. Brown",
+  height: "6-0",
+  weight: 226,
+  position: "WR",
+  number: 11
+)
+titans.players.create!(
+  name: "Kevin Byard",
+  height: "5-11",
+  weight: 212,
+  position: "FS",
+  number: 31
+)
+titans.players.create!(
+  name: "Corey Davis",
+  height: "6-3",
+  weight: 209,
+  position: "WR",
+  number: 84
+)
+titans.players.create!(
+  name: "Derrick Henry",
+  height: "6-3",
+  weight: 247,
+  position: "RB",
+  number: 22
+)
+titans.players.create!(
+  name: "Tajae Sharpe",
+  height: "6-2",
+  weight: 194,
+  position: "WR",
+  number: 19
+)
+titans.players.create!(
+  name: "Jonnu Smith",
+  height: "6-3",
+  weight: 248,
+  position: "TE",
+  number: 81
+)
+titans.players.create!(
+  name: "Ryan Tannehill",
+  height: "6-4",
+  weight: 207,
+  position: "DE",
+  number: 17
 )
