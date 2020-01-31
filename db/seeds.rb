@@ -45,3 +45,11 @@ seahawks.players.create!(
   position: "Quarterback",
   number: 3
 )
+
+seahawks.players.create!(
+  name: "DK Metcalf",
+  height: "6-3",
+  weight: 229,
+  position: "Wide Reciever",
+  number: 14
+)

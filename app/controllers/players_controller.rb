@@ -37,10 +37,7 @@ class PlayersController < ApplicationController
   end
 
   private
-  def json_response(object, status = :ok)
-    render json: object, status: status
-  end
-
+  
   def player_params
     params.permit(:team_id, :height, :name, :weight, :position, :number)
   end

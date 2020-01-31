@@ -25,10 +25,7 @@ class TeamsController < ApplicationController
   end
 
   private
-  def json_response(object, status = :ok)
-    render json: object, status: status
-  end
-
+  
   def team_params
     params.permit(:name, :founded, :stadium, :city, :state, :logo)
   end
