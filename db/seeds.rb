@@ -59,6 +59,14 @@ titans = Team.create!({
   stadium: "Nissan Stadium",
   founded: 1959
 })
+saints = Team.create!({
+  name: "New Orleans Saints",
+  logo: "https://mpng.pngfly.com/20180525/keb/kisspng-new-orleans-saints-nfl-pro-football-hall-of-fame-g-5b081edfa45335.9847293915272588476731.jpg",
+  state: "Louisiana",
+  city: "New Orleans",
+  stadium: "Mercedes-Benz Superdome",
+  founded: 1967
+})
 
 #---------------Players------------------
 
@@ -764,4 +772,112 @@ titans.players.create!(
   weight: 207,
   position: "DE",
   number: 17
+)
+
+#-------------------Saints-----------------------
+
+saints.players.create!(
+  name: "Terron Armstead",
+  height: "6-5",
+  weight: 304,
+  position: "T",
+  number: 72
+)
+saints.players.create!(
+  name: "Jared Cook",
+  height: "6-5",
+  weight: 254,
+  position: "TE",
+  number: 87
+)
+saints.players.create!(
+  name: "Janoris Jenkins",
+  height: "5-10",
+  weight: 190,
+  position: "CB",
+  number: 20
+)
+saints.players.create!(
+  name: "Cameron Jordan",
+  height: "6-4",
+  weight: 287,
+  position: "DE",
+  number: 94
+)
+saints.players.create!(
+  name: "Alvin Kamara",
+  height: "5-10",
+  weight: 215,
+  position: "RB",
+  number: 41
+)
+saints.players.create!(
+  name: "Marshon Lattimore",
+  height: "6-0",
+  weight: 192,
+  position: "CB",
+  number: 23
+)
+saints.players.create!(
+  name: "Wil Lutz",
+  height: "5-11",
+  weight: 184,
+  position: "K",
+  number: 3
+)
+saints.players.create!(
+  name: "Thomas Morstead",
+  height: "6-4",
+  weight: 235,
+  position: "P",
+  number: 6
+)
+saints.players.create!(
+  name: "Latavius Murray",
+  height: "6-3",
+  weight: 230,
+  position: "RB",
+  number: 28
+)
+saints.players.create!(
+  name: "Michael Thomas",
+  height: "6-3",
+  weight: 212,
+  position: "WR",
+  number: 13
+)
+saints.players.create!(
+  name: "Taysom Hill",
+  height: "6-2",
+  weight: 221,
+  position: "QB",
+  number: 7
+)
+saints.players.create!(
+  name: "Eli Apple",
+  height: "6-1",
+  weight: 203,
+  position: "CB",
+  number: 25
+)
+saints.players.create!(
+  name: "Drew Brees",
+  height: "6-0",
+  weight: 209,
+  position: "QB",
+  number: 9
+)
+saints.players.create!(
+  name: "Teddy Bridgewater",
+  height: "6-2",
+  weight: 215,
+  position: "QB",
+  number: 5
+)
+saints.players.create!(
+  name: "Ted Ginn Jr.",
+  height: "5-11",
+  weight: 180,
+  position: "WR",
+  number: 19
 )
