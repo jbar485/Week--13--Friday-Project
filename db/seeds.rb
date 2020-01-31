@@ -38,6 +38,8 @@ packers = Team.create!({
 
 #---------------Players------------------
 
+
+#---------------Seahawks------------------
 seahawks.players.create!(
   name: "Russell Wilson",
   height: "5-11",
@@ -300,4 +302,296 @@ seahawks.players.create!(
   weight: 215,
   position: "CB",
   number: 36
+)
+
+seahawks.players.create!(
+  name: "Tyler Lockett",
+  height: "5-10",
+  weight: 182,
+  position: "WR",
+  number: 16
+)
+
+seahawks.players.create!(
+  name: "Marshawn Lynch",
+  height: "5-11",
+  weight: 215,
+  position: "RB",
+  number: 24
+)
+
+seahawks.players.create!(
+  name: "Bradley McDougald",
+  height: "6-1",
+  weight: 215,
+  position: "FS",
+  number: 30
+)
+
+seahawks.players.create!(
+  name: "Bryan Mone",
+  height: "6-3",
+  weight: 366,
+  position: "DT",
+  number: 79
+)
+
+seahawks.players.create!(
+  name: "David Moore",
+  height: "6-0",
+  weight: 215,
+  position: "WR",
+  number: 83
+)
+
+seahawks.players.create!(
+  name: "Jason Myers",
+  height: "5-10",
+  weight: 190,
+  position: "K",
+  number: 5
+)
+
+seahawks.players.create!(
+  name: "Ryan Neal",
+  height: "6-3",
+  weight: 200,
+  position: "CB",
+  number: 35
+)
+
+seahawks.players.create!(
+  name: "Tyler Ott",
+  height: "6-3",
+  weight: 253,
+  position: "LS",
+  number: 69
+)
+
+seahawks.players.create!(
+  name: "Jarran Reed",
+  height: "6-3",
+  weight: 306,
+  position: "DT",
+  number: 91
+)
+
+seahawks.players.create!(
+  name: "Jordan Roos",
+  height: "6-3",
+  weight: 302,
+  position: "G",
+  number: 64
+)
+
+seahawks.players.create!(
+  name: "Geno Smith",
+  height: "6-3",
+  weight: 221,
+  position: "Q",
+  number: 7
+)
+
+seahawks.players.create!(
+  name: "Tyrone Swoopes",
+  height: "6-4",
+  weight: 254,
+  position: "TE",
+  number: 46
+)
+
+seahawks.players.create!(
+  name: "Robert Turbin",
+  height: "5-10",
+  weight: 225,
+  position: "RB",
+  number: 34
+)
+
+seahawks.players.create!(
+  name: "Malik Turner",
+  height: "6-2",
+  weight: 202,
+  position: "WR",
+  number: 17
+)
+
+seahawks.players.create!(
+  name: "John Ursua",
+  height: "5-9",
+  weight: 182,
+  position: "WR",
+  number: 15
+)
+
+seahawks.players.create!(
+  name: "Bobby Wagner",
+  height: "6-0",
+  weight: 242,
+  position: "LB",
+  number: 54
+)
+
+seahawks.players.create!(
+  name: "Dekoda Watson",
+  height: "6-2",
+  weight: 245,
+  position: "LB",
+  number: 51
+)
+
+seahawks.players.create!(
+  name: "Chad Wheeler",
+  height: "6-7",
+  weight: 318,
+  position: "T",
+  number: 75
+)
+
+seahawks.players.create!(
+  name: "Luke Willson",
+  height: "6-5",
+  weight: 255,
+  position: "TE",
+  number: 82
+)
+
+seahawks.players.create!(
+  name: "K.J. Wright",
+  height: "6-4",
+  weight: 246,
+  position: "LB",
+  number: 50
+)
+
+#-------------------chiefs------------------
+
+chiefs.players.create!(
+  name: "Harrison Butker",
+  height: "6-4",
+  weight: 205,
+  position: "K",
+  number: 7
+)
+
+chiefs.players.create!(
+  name: "Frank Clark",
+  height: "6-3",
+  weight: 260,
+  position: "DE",
+  number: 55
+)
+
+chiefs.players.create!(
+  name: "Mecole Hardman",
+  height: "5-10",
+  weight: 187,
+  position: "WR",
+  number: 17
+)
+
+chiefs.players.create!(
+  name: "Tyreek Hill",
+  height: "5-10",
+  weight: 185,
+  position: "WR",
+  number: 10
+)
+
+chiefs.players.create!(
+  name: "Travis Kelce",
+  height: "6-5",
+  weight: 260,
+  position: "TE",
+  number: 87
+)
+
+chiefs.players.create!(
+  name: "Patrick Mahomes",
+  height: "6-3",
+  weight: 230,
+  position: "Q",
+  number: 15
+)
+
+chiefs.players.create!(
+  name: "Tyrann Mathieu",
+  height: "5-9",
+  weight: 190,
+  position: "S",
+  number: 32
+)
+
+chiefs.players.create!(
+  name: "LeSean McCoy",
+  height: "5-11",
+  weight: 210,
+  position: "RB",
+  number: 25
+)
+
+chiefs.players.create!(
+  name: "Demarcus Robinson",
+  height: "6-1",
+  weight: 203,
+  position: "WR",
+  number: 11
+)
+
+chiefs.players.create!(
+  name: "Terrell Suggs",
+  height: "6-3",
+  weight: 265,
+  position: "DE",
+  number: 94
+)
+
+chiefs.players.create!(
+  name: "Sammy Watkins",
+  height: "6-1",
+  weight: 211,
+  position: "WR",
+  number: 14
+)
+
+chiefs.players.create!(
+  name: "Damien Williams",
+  height: "5-11",
+  weight: 224,
+  position: "RB",
+  number: 26
+)
+
+#---------------Packer-------------------
+
+packers.players.create!(
+  name: "Harrison Butker",
+  height: "6-4",
+  weight: 205,
+  position: "K",
+  number: 7
+)
+
+packers.players.create!(
+  name: "Frank Clark",
+  height: "6-3",
+  weight: 260,
+  position: "DE",
+  number: 55
+)
+
+packers.players.create!(
+  name: "Mecole Hardman",
+  height: "5-10",
+  weight: 187,
+  position: "WR",
+  number: 17
+)
+
+packers.players.create!(
+  name: "Tyreek Hill",
+  height: "5-10",
+  weight: 185,
+  position: "WR",
+  number: 10
 )
