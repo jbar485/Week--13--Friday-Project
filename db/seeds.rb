@@ -565,33 +565,65 @@ chiefs.players.create!(
 #---------------Packer-------------------
 
 packers.players.create!(
-  name: "Harrison Butker",
-  height: "6-4",
-  weight: 205,
-  position: "K",
-  number: 7
-)
-
-packers.players.create!(
-  name: "Frank Clark",
-  height: "6-3",
-  weight: 260,
-  position: "DE",
-  number: 55
-)
-
-packers.players.create!(
-  name: "Mecole Hardman",
-  height: "5-10",
-  weight: 187,
+  name: "Devante Adams",
+  height: "6-1",
+  weight: 215,
   position: "WR",
   number: 17
 )
 
 packers.players.create!(
-  name: "Tyreek Hill",
-  height: "5-10",
-  weight: 185,
+  name: "Geronimo Allison",
+  height: "6-3",
+  weight: 202,
   position: "WR",
-  number: 10
+  number: 81
+)
+
+packers.players.create!(
+  name: "Mason Crosby",
+  height: "6-1",
+  weight: 207,
+  position: "K",
+  number: 2
+)
+
+packers.players.create!(
+  name: "Jimmy Graham",
+  height: "6-7",
+  weight: 265,
+  position: "TE",
+  number: 80
+)
+
+packers.players.create!(
+  name: "Devante Adams",
+  height: "6-1",
+  weight: 215,
+  position: "WR",
+  number: 17
+)
+
+packers.players.create!(
+  name: "Geronimo Allison",
+  height: "6-3",
+  weight: 202,
+  position: "WR",
+  number: 81
+)
+
+packers.players.create!(
+  name: "Mason Crosby",
+  height: "6-1",
+  weight: 207,
+  position: "K",
+  number: 2
+)
+
+packers.players.create!(
+  name: "Jimmy Graham",
+  height: "6-7",
+  weight: 265,
+  position: "TE",
+  number: 80
 )
