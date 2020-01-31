@@ -2,8 +2,8 @@ class AddPlayersTable < ActiveRecord::Migration[5.2]
   def change
     create_table :players do |t|
       t.string :name
-      t.integer :position
-      t.integer :height
+      t.string :position
+      t.string :height
       t.integer :weight
       t.integer :number
       t.integer :team_id
