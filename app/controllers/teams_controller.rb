@@ -2,6 +2,8 @@ class TeamsController < ApplicationController
 
   def index
     @teams = Team.all
+    name = params[:name]
+    @teams = Team.search(name)
     json_response(@teams)
   end
 
@@ -25,7 +27,7 @@ class TeamsController < ApplicationController
   end
 
   private
-  
+
   def team_params
     params.permit(:name, :founded, :stadium, :city, :state, :logo)
   end
