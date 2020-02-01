@@ -11,7 +11,7 @@ Player.destroy_all
 
 #------------Teams----------------
 
-seahawks = Team.create!({
+seahawks = Team.create({
   name: "Seattle Seahawks",
   logo: "https://toppng.com/public/uploads/preview/19-beautiful-nfl-teams-logos-seattle-seahawks-logo-transparent-11563199254zonapfkvjz.png",
   state: "Washington",
@@ -19,7 +19,7 @@ seahawks = Team.create!({
   stadium: "Century Link Field",
   founded: 1974
 })
-chiefs = Team.create!({
+chiefs = Team.create({
   name: "Kansas City Chiefs",
   logo: "https://banner2.cleanpng.com/20180714/tfq/kisspng-arrowhead-stadium-kansas-city-chiefs-nfl-kansas-ci-chief-5b49f33bdd5735.2962382815315730519066.jpg",
   state: "Missouri",
@@ -27,7 +27,7 @@ chiefs = Team.create!({
   stadium: "Arrowhead Stadium",
   founded: 1960
 })
-packers = Team.create!({
+packers = Team.create({
   name: "Green Bay Packers",
   logo: "https://library.kissclipart.com/20181003/fxe/kissclipart-green-bay-packers-logo-clipart-green-bay-packers-l-f6c1844a7039223e.jpg",
   state: "Wisconsin",
@@ -35,7 +35,7 @@ packers = Team.create!({
   stadium: "Lambeau Field",
   founded: 1919
 })
-colts = Team.create!({
+colts = Team.create({
   name: "Indianapolis Colts",
   logo: "data:image/png;base64,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",
   state: "Indiana",
@@ -43,7 +43,7 @@ colts = Team.create!({
   stadium: "Lucas Oil Stadium",
   founded: 1953
 })
-texans = Team.create!({
+texans = Team.create({
   name: "Houston Texans",
   logo: "https://library.kissclipart.com/20180902/ooe/kissclipart-houston-texans-clipart-houston-texans-nfl-d7ec288d0db63b61.jpg",
   state: "Texas",
@@ -51,7 +51,7 @@ texans = Team.create!({
   stadium: "NRG Stadium",
   founded: 1999
 })
-titans = Team.create!({
+titans = Team.create({
   name: "Tennessee Titans",
   logo: "https://library.kissclipart.com/20181002/soq/kissclipart-tennessee-titans-logo-clipart-tennessee-titans-nfl-df91c3c560559e88.jpg",
   state: "Tennessee",
@@ -59,13 +59,21 @@ titans = Team.create!({
   stadium: "Nissan Stadium",
   founded: 1959
 })
-saints = Team.create!({
+saints = Team.create({
   name: "New Orleans Saints",
   logo: "https://mpng.pngfly.com/20180525/keb/kisspng-new-orleans-saints-nfl-pro-football-hall-of-fame-g-5b081edfa45335.9847293915272588476731.jpg",
   state: "Louisiana",
   city: "New Orleans",
   stadium: "Mercedes-Benz Superdome",
   founded: 1967
+})
+ravens = Team.create({
+  name: "Baltimore Ravens",
+  logo: "https://p1.hiclipart.com/preview/677/449/110/american-football-baltimore-ravens-2015-nfl-season-logo-latest-sports-logos-news-fullback-decal-eagle-png-clipart.jpg",
+  state: "Maryland",
+  city: "Baltimore",
+  stadium: "M&T Bank Stadium",
+  founded: 1996
 })
 
 #---------------Players------------------
@@ -880,4 +888,77 @@ saints.players.create!(
   weight: 180,
   position: "WR",
   number: 19
+)
+
+#----------------------Ravens----------------------
+
+ravens.players.create!(
+  name: "Mark Andrews",
+  height: "6-5",
+  weight: 256,
+  position: "TE",
+  number: 89
+)
+ravens.players.create!(
+  name: "Marquise Brown",
+  height: "5-9",
+  weight: 170,
+  position: "WR",
+  number: 15
+)
+ravens.players.create!(
+  name: "Gus Edwards",
+  height: "6-1",
+  weight: 238,
+  position: "RB",
+  number: 35
+)
+ravens.players.create!(
+  name: "Robert Griffin III",
+  height: "6-2",
+  weight: 213,
+  position: "QB",
+  number: 3
+)
+ravens.players.create!(
+  name: "Marlon Humphrey",
+  height: "6-0",
+  weight: 197,
+  position: "CB",
+  number: 44
+)
+ravens.players.create!(
+  name: "Mark Ingram II",
+  height: "5-9",
+  weight: 215,
+  position: "RB",
+  number: 21
+)
+ravens.players.create!(
+  name: "Lamar Jackson",
+  height: "6-2",
+  weight: 212,
+  position: "QB",
+  number: 8
+)
+ravens.players.create!(
+  name: "Marcus Peters",
+  height: "6-0",
+  weight: 195,
+  position: "CB",
+  number: 24
+)
+ravens.players.create!(
+  name: "Earl Thomas III",
+  height: "5-10",
+  weight: 202,
+  position: "S",
+  number: 29
+)
+ravens.players.create!(
+  name: "Justin Tucker",
+  height: "6-1",
+  weight: 183,
+  position: "K",
+  number: 9
 )
