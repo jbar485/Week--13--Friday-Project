@@ -15,6 +15,5 @@ FactoryBot.define do
     height {'5-11'}
     position { 'Quarterback' }
     number { 3 }
-    wright { 'Chich' }
   end
 end
